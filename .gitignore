@@ -1,0 +1,11 @@
+# Ignore Python bytecode
+__pycache__/
+
+# Ignore specific files
+*.count
+*.txt
+*.lm
+*.csv
+
+# Ignore the 'reads' directory
+reads/
