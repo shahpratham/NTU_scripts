@@ -1,0 +1,21 @@
+Generate data
+Get your train and test file ready.
+Use `palm.py` to generate codeswitch data.
+
+Filter and clean data
+Use `stsb.py` to filter sentences according to semantic similarity and create train set
+Use `check_csv.py` to parse csv file properly
+Use `top1.py` to extract data from csv to txt
+Use `clean_text.py` to normalize the text (includes cases of handling apostrophe and speacial characters)
+
+Vocab File
+Make vocab file using train data or already known data.
+Use `generate_vocab.py` to create vocab file from give train set.
+Use `find_oov.py` to create list of words of words which are present in test set but not in vocab file.
+
+Evaluate generated text
+Use `generate_lm.sh` to create language models
+Use `generate_ppl.sh` to calculate perplexity values
+Use `format_ppl` to get obtain ppl in expected format
+
+

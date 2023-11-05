@@ -1,11 +1,14 @@
 # Ignore Python bytecode
 __pycache__/
-
+lm/
+data/
 # Ignore specific files
 *.count
-*.txt
+# *.txt
+
 *.lm
 *.csv
+*.env
 
 # Ignore the 'reads' directory
 reads/

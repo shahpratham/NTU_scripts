@@ -1,0 +1,17 @@
+-----------------------------------------------------------
+lm/lm4/train_uni_imda4_0.001
+file ./data/All_filteredIMDA5-10w_test.txt: 59371 sentences, 1482917 words, 3470 OOVs
+0 zeroprobs, logprob= -4187064 ppl= 525.9698 ppl1= 676.3235
+---------------------
+lm/lm4/train_bi_imda4_0.001
+file ./data/All_filteredIMDA5-10w_test.txt: 59371 sentences, 1482917 words, 3470 OOVs
+0 zeroprobs, logprob= -3411278 ppl= 164.7468 ppl1= 202.199
+---------------------
+lm/lm4/train_tri_imda4_0.001
+file ./data/All_filteredIMDA5-10w_test.txt: 59371 sentences, 1482917 words, 3470 OOVs
+0 zeroprobs, logprob= -3332450 ppl= 146.4166 ppl1= 178.8532
+---------------------
+Unigram-Bigram interpolation for alpha = 0.001
+153.8162
+Bigram-Trigram interpolation for alpha = 0.001
+141.2011

@@ -1,0 +1,89 @@
+-----------------------------------------------------------
+top1/train_uni_imda4_0
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+897 zeroprobs, logprob= -212568.7 ppl= 782.6851 ppl1= 1112.646
+---------------------
+top1/train_bi_imda4_0
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+14679 zeroprobs, logprob= -122403.8 ppl= 112.4612 ppl1= 153.4402
+---------------------
+top1/train_tri_imda4_0
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+14679 zeroprobs, logprob= -121052.7 ppl= 106.7489 ppl1= 145.1477
+---------------------
+Unigram-Bigram interpolation for alpha = 0
+333.2662
+Bigram-Trigram interpolation for alpha = 0
+102.1777
+-----------------------------------------------------------
+top1/train_uni_imda4_1
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -218508.8 ppl= 868.0907 ppl1= 1235.209
+---------------------
+top1/train_bi_imda4_1
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -229862.4 ppl= 1233.821 ppl1= 1788.078
+---------------------
+top1/train_tri_imda4_1
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -250886.1 ppl= 2365.831 ppl1= 3546.955
+---------------------
+Unigram-Bigram interpolation for alpha = 1
+748.1273
+Bigram-Trigram interpolation for alpha = 1
+1235.576
+-----------------------------------------------------------
+top1/train_uni_imda4_0.01
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -220245 ppl= 916.0401 ppl1= 1307.095
+---------------------
+top1/train_bi_imda4_0.01
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -195146.1 ppl= 421.0923 ppl1= 576.9994
+---------------------
+top1/train_tri_imda4_0.01
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -197196 ppl= 448.6893 ppl1= 616.8519
+---------------------
+Unigram-Bigram interpolation for alpha = 0.01
+395.2951
+Bigram-Trigram interpolation for alpha = 0.01
+412.3717
+-----------------------------------------------------------
+top1/train_uni_imda4_0.001
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -221025.5 ppl= 938.4492 ppl1= 1340.758
+---------------------
+top1/train_bi_imda4_0.001
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -200265.3 ppl= 493.4267 ppl1= 681.7253
+---------------------
+top1/train_tri_imda4_0.001
+file ./data/clean_test_norm_ngram_cut.txt: 3684 sentences, 70983 words, 308 OOVs
+0 zeroprobs, logprob= -198731.2 ppl= 470.5343 ppl1= 648.4889
+---------------------
+Unigram-Bigram interpolation for alpha = 0.001
+390.1958
+Bigram-Trigram interpolation for alpha = 0.001
+462.9554
+------------------
+782.6851
+112.4612
+106.7489
+868.0907
+1233.821
+2365.831
+916.0401
+421.0923
+448.6893
+938.4492
+493.4267
+470.5343
+333.2662
+102.1777
+748.1273
+1235.576
+395.2951
+412.3717
+390.1958
+462.9554
